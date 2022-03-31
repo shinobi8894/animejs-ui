@@ -1,0 +1,163 @@
+<html>
+<head>
+    <link href="./css/fileupload.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="folder" id="js_folder">
+        <div class="folder-summary" id="js_toggle-folder">
+            <div class="folder-summary__start">
+                <button class="folder-collapse-button" id="js_folder-collapse-button">
+                    <svg id="js_folder-collapse-button-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-chevron-up">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                </button>
+                <div class="folder-summary__file-count" id="js_folder-summary-amount">
+                    <span class="folder-summary__file-count__amount">3</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-folder">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="folder-summary__details">
+                <div class="folder-summary__details__name">
+                    Portfolio
+                </div>
+                <div class="folder-summary__details__share">
+                    Design by
+                    <a class="shared-user" href="https://github.com/shinobi8894" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="shared-user__avatar" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#1C213E" />
+                            <circle cx="12" cy="12" fill="#BFBFC0" r="6.168" />
+                            <circle cx="12.561" cy="11.439" r="5.607" fill="url(#paint0_radial)" fill-opacity=".5" />
+                            <defs>
+                                <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                    gradientTransform="rotate(109.486 3.244 10.282) scale(7.73263)">
+                                    <stop stop-color="#758EA9" />
+                                    <stop offset="1" stop-color="#668097" stop-opacity="0" />
+                                </radialGradient>
+                            </defs>
+                        </svg>
+                        <span class="shared-user__name">Shinobi</span>
+                    </a>
+                </div>
+            </div>
+            <div class="folder-summary__end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M6 12c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3zm9 0c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3zm9 0c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z" />
+                </svg>
+            </div>
+        </div>
+
+        <ul class="folder-content" id="js_folder-content">
+
+            <li class="folder-item js_folder-item">
+                <div class="folder-item__icon">
+                    <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#5085E8" />
+                        <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z"
+                            fill="#A4BEF6" />
+                        <path fill="#fff" fill-opacity=".75"
+                            d="M13 39h24v3H13zM13 57h17v3H13zM13 51h24v3H13zM13 45h24v3H13z" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29"
+                                gradientUnits="userSpaceOnUse">
+                                <stop />
+                                <stop offset="1" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="folder-item__details">
+                    <div class="folder-item__details__name">
+                        Graduate-reports.doc
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="#ecc31c" stroke-widt class="feather feather-star">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <div class="folder-item__details__date">Created 2020.4.25</div>
+                </div>
+                <div class="folder-item__size">16.7 MB</div>
+            </li>
+
+            <li class="folder-item js_folder-item">
+                <div class="folder-item__icon">
+                    <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#36A95E" />
+                        <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z"
+                            fill="#A0D0B3" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 60V39h25v21H12zm14-3h8v-3h-8v3zm-3-3v3h-8v-3h8zm3-3h8v-3h-8v3zm-3-3v3h-8v-3h8zm3-3h8v-3h-8v3zm-3-3v3h-8v-3h8z"
+                            fill="#fff" fill-opacity=".75" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29"
+                                gradientUnits="userSpaceOnUse">
+                                <stop />
+                                <stop offset="1" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="folder-item__details">
+                    <div class="folder-item__details__name">
+                        Festival Visual Design.xlsx
+                    </div>
+                    <div class="folder-item__details__date">
+                        Created 2020.5.17
+                    </div>
+                </div>
+                <div class="folder-item__size">
+                    216.5 MB
+                </div>
+            </li>
+            <li class="folder-item js_folder-item">
+                <div class="folder-item__icon">
+                    <svg width="50" height="70" viewBox="0 0 50 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M33 0H5a5 5 0 00-5 5v60a5 5 0 005 5h40a5 5 0 005-5V17L33 0z" fill="#E8B52C" />
+                        <path d="M50 29L35 16l15 .867V29z" fill="url(#paint0_linear)" opacity=".1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33 0l17 17H38a5 5 0 01-5-5V0z"
+                            fill="#EEDA86" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M34 39H13v21h24V39h-3zM16 54.75h18v-10.5H16v10.5z" fill="#fff" fill-opacity=".75" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="42.5" y1="16" x2="42.5" y2="29"
+                                gradientUnits="userSpaceOnUse">
+                                <stop />
+                                <stop offset="1" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="folder-item__details">
+                    <div class="folder-item__details__name">
+                        Portfolio 2020.ppt
+                    </div>
+                    <div class="folder-item__details__date">
+                        Created 2020.6.7
+                    </div>
+                </div>
+                <div class="folder-item__size">
+                    25.8 MB
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+<script src="./js/fileupload.js"></script>
+
+</html>
